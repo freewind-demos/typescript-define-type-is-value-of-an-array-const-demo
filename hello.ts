@@ -1,3 +1,16 @@
-import {capitalize} from 'lodash';
+type Group = {
+  name: string,
+  users: {
+    name: string,
+    email: string
+  }[]
+}
 
-console.log("Hello, " + capitalize("typescript") + "!");
+type User = Group['users'][0]
+
+const user: User = {
+  name: 'typescript',
+  email: 'typescript@test.com'
+};
+
+console.log(user);
