@@ -6,7 +6,8 @@ type Group = {
   }[]
 }
 
-type User = Group['users'][0]
+//type User = Group['users'][0]
+type User = Group['users'][number]
 
 const user: User = {
   name: 'typescript',
