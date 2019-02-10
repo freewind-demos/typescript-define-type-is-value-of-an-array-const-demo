@@ -1,17 +1,10 @@
-type Group = {
-  name: string,
-  users: {
-    name: string,
-    email: string
-  }[]
+const names: ['Mike', 'Jeff', 'Ben'] = ['Mike', 'Jeff', 'Ben'];
+
+type Name = ???;
+
+function hello(name: Name) {
+  console.log(`Hello, ${name}!`)
 }
 
-//type User = Group['users'][0]
-type User = Group['users'][number]
+hello('Mike');
 
-const user: User = {
-  name: 'typescript',
-  email: 'typescript@test.com'
-};
-
-console.log(user);

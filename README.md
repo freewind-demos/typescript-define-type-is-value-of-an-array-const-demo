@@ -1,14 +1,8 @@
-TypeScript Define Type from Array inside Type Demo
-==================================================
+TypeScript Define Type Which is Value of an Array Const Demo
+============================================================
 
-原来这么简单。。。
+简单来说，目前还做不到，或者需要使用非常复杂的变通方式。
 
-更新：
+不过等到typescript 3.4出来以后，将会有一个比较简单的方式。
 
-最开始我以为网友给的答案中`Group['users'][number]`中的`number`是指某一个数字，
-刚刚才明白，原来就是`number`
-
-```
-npm install
-npm run demo
-```
+See: https://stackoverflow.com/questions/54607961/how-to-define-a-type-based-on-values-of-an-array
